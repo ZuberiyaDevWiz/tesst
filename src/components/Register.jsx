@@ -1,4 +1,4 @@
-export default function Login(){
+export default function Register(){
     return(
         <>
       
@@ -14,10 +14,13 @@ export default function Login(){
         <div className = "-mx-28 ">
           
             <div className="text-3xl font-bold pt-16 px-4 ">
-                Sign in to LIAMI
+                I'm New Here
             </div>
             <div className="text-sm px-5 pt-2">
                 Enter your detail below
+            </div>
+            <div className="pt-5 px-5 ">
+            <input type="text" placeholder="username" className="outline-neutral-700 px-2 w-96 h-9 rounded border border-gray-800"  />
             </div>
             <div className="pt-5 px-5 ">
             <input type="text" placeholder="email" className="outline-neutral-700 px-2 w-96 h-9 rounded border border-gray-800"  />
@@ -37,9 +40,9 @@ export default function Login(){
         </div>
         <div className="flex items-center justify-center pb-[670px]">
         <div className=" p-5">
-            Not a member?
+            Already a member?
         </div>
-        <button className="rounded-full h-12 w-36 bg-orange-500">signUp Now</button>
+        <a href="/" className="underline text-orange-600 ">sign In</a>
         </div>
 
 
